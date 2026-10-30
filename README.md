@@ -9,6 +9,8 @@ build time. Glotmode's code lives elsewhere; this repository only holds the data
 | Release | Language | Built from |
 |---|---|---|
 | `de-v1` | German | kaikki.org's Wiktextract extract of English Wiktionary (German entries), 2026-10-25 |
+| `es-v1` | Spanish | the same, Spanish entries, 2026-10-25 |
+| `it-v1` | Italian | the same, Italian entries, 2026-10-25 |
 
 ## Attribution and license
 
@@ -25,4 +27,5 @@ adaptation and are released under **CC BY-SA 4.0** as well.
 affixes and symbols were dropped. Each part-of-speech heading became one entry, keeping its English
 glosses in source order, the noun gender, plural and genitive, the verb principal parts and
 auxiliaries, and the adjective comparison. A form → lemma table was derived from the inflection
-tables and form-of entries.
+tables and form-of entries. Italian forms are respelled without Wiktionary's stress marks (fàccio →
+faccio), and verbs with attached pronouns (comprarselo, dámelo) became form → lemma rows.
